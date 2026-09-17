@@ -1,8 +1,8 @@
 const STATS = [
   { num: '75 / 300', label: 'Hackathon teams and builders on-site' },
-  { num: '11', label: 'Competitions running across tech, gaming, film and culture' },
-  { num: '3', label: 'Dedicated esports arenas — Valorant & COD, PUBG, PES' },
-  { num: '₹4.68L+', label: 'Combined prize money across the gaming tracks alone' },
+  { num: '10', label: 'Competitions running across tech, gaming, film and culture' },
+  { num: '4', label: 'Dedicated esports arenas — Valorant & COD, PUBG, PES' },
+  { num: '₹10L+', label: 'Combined prize money across the gaming tracks alone' },
 ]
 
 export default function Slide03Stats() {
