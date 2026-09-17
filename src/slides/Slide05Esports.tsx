@@ -8,7 +8,8 @@ type Row = {
 }
 
 const ROWS: Row[] = [
-  { track: 'Valorant & COD', field: 'Top 8 teams', first: '₹1,00,000', second: '₹50,000', third: '₹25,000', rest: '₹5,000 each' },
+  { track: 'Valorant', field: 'Top 8 teams', first: '₹1,00,000', second: '₹50,000', third: '₹25,000', rest: '₹5,000 each' },
+  { track: 'COD', field: 'Top 8 teams', first: '₹1,00,000', second: '₹50,000', third: '₹25,000', rest: '₹5,000 each' },
   { track: 'PUBG', field: 'Top 25 teams', first: '₹80,000', second: '₹40,000', third: '₹20,000', rest: '₹4,000 each' },
   { track: 'PES', field: 'Top 8 teams', first: '₹20,000', second: '₹10,000', third: '₹5,000', rest: '₹1,000 each' },
 ]
@@ -49,7 +50,7 @@ export default function Slide05Esports() {
         </tbody>
       </table>
       <div className="prize-total">
-        <span className="amt">₹4,68,000</span>
+        <span className="amt">₹10,28,000</span>
         <span className="txt">total prize pool across all three gaming tracks</span>
       </div>
     </section>
