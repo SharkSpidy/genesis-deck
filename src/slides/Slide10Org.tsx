@@ -11,6 +11,8 @@ const VERTICALS: Vertical[] = [
   { name: 'Sponsorships' },
   { name: 'Pro-Show' },
   { name: 'Auto-Show' },
+  { name: 'Hackathon' },
+  { name: 'Media' },
 ]
 
 export default function Slide10Org() {
