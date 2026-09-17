@@ -6,18 +6,18 @@ export default function Slide12Close() {
       </div>
       <h2>Let's build HIVE at Jain University</h2>
       <p className="lede2">
-        One campus, eleven competitions, a state-level guest list — and a team already assembling
-        to run it clean. We'd like to walk you through the full plan in person.
+        One campus, ten competitions, a state-level guest list — and a team already assembling
+        to run it clean.
       </p>
       <div className="contact-row">
         <div>
           <strong>Event</strong>HIVE — Flagship Edition, February
         </div>
         <div>
-          <strong>Contact</strong>[Name / phone / email]
+          <strong>Contact</strong>Joseph Shibu | 8590048254 | josephshibuwork@gmail.com
         </div>
         <div>
-          <strong>Organisation</strong>[Organising body / society]
+          <strong>Organisation</strong>HIVE | www.hiveofficial.in | @hivesofficial
         </div>
       </div>
     </section>
