@@ -4,7 +4,7 @@ export default function Slide01Cover() {
       <div className="cover-mark">
         <div className="cover-hex" />
       </div>
-      <div className="wordmark">HIVE</div>
+      <div className="wordmark">GENESIS'27</div>
       <p className="cover-tagline">
         Kerala's builders, gamers, artists and filmmakers — sharing one campus, one weekend.
       </p>
