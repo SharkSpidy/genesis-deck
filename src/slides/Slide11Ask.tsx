@@ -8,8 +8,8 @@ const WE_ASK = [
 ]
 
 const WE_BRING = [
-  'Full production across all eleven competitions, end to end',
-  'Sponsorship-funded prize pools — over ₹4.68L already structured for gaming alone',
+  'Full production across all ten competitions, end to end',
+  'Sponsorship-funded prize pools — over ₹10L already structured',
   'Guest and talent coordination for the government and film guest list',
   'A dedicated discipline and logistics function focused on protecting your campus',
 ]
