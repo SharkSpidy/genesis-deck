@@ -2,7 +2,7 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts'
 import SlideFrame from './SlideFrame'
 import { BUDGET_CATEGORIES, TOTAL_BUDGET, formatINR } from '../data'
 
-export default function Slide06Budget() {
+export default function Slide05Budget() {
   return (
     <SlideFrame title="Financial Dashboard" kicker="The ask">
       <div className="grid items-start gap-8 lg:grid-cols-5">

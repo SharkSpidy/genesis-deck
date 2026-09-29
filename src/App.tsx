@@ -2,13 +2,14 @@ import { useCallback, useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Slide01Title from './slides/Slide01Title'
-import Slide02Idea from './slides/Slide02Idea'
-import Slide03Value from './slides/Slide03Value'
-import Slide04Revenue from './slides/Slide04Revenue'
-import Slide05Prizes from './slides/Slide05Prizes'
-import Slide06Budget from './slides/Slide06Budget'
+import Slide02About from './slides/Slide02About'
+import Slide03Idea from './slides/Slide03Idea'
+import Slide04Prizes from './slides/Slide04Prizes'
+import Slide05Budget from './slides/Slide05Budget'
+import Slide06Roi from './slides/Slide06Roi'
+import Slide07Appendix from './slides/Slide07Appendix'
 
-const SLIDES = [Slide01Title, Slide02Idea, Slide03Value, Slide04Revenue, Slide05Prizes, Slide06Budget]
+const SLIDES = [Slide01Title, Slide02About, Slide03Idea, Slide04Prizes, Slide05Budget, Slide06Roi, Slide07Appendix]
 
 export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0)

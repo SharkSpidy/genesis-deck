@@ -23,9 +23,9 @@ export default function SlideFrame({ title, kicker, children }: { title: string;
   return (
     <section className="relative h-full w-full overflow-y-auto bg-[#05070d]">
       <HexGrid opacity={0.1} />
-      <div className="relative mx-auto flex min-h-full max-w-7xl flex-col px-6 pb-24 pt-6 md:px-10">
-        {kicker && <p className="mb-1 text-sm font-medium text-cyan-300">{kicker}</p>}
-        <h2 className="mb-4 font-display text-3xl font-extrabold tracking-tight text-white md:text-4xl">{title}</h2>
+      <div className="relative mx-auto flex min-h-full max-w-6xl flex-col px-6 pb-28 pt-10 md:px-12">
+        {kicker && <p className="mb-2 text-sm font-medium text-cyan-300">{kicker}</p>}
+        <h2 className="mb-8 font-display text-3xl font-extrabold tracking-tight text-white md:text-5xl">{title}</h2>
         {children}
       </div>
     </section>

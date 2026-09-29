@@ -8,7 +8,7 @@ const FEES = [
   { label: 'Gaming', fee: 'Rs. 2500 & Rs. 500' },
 ]
 
-export default function Slide05Prizes() {
+export default function Slide04Prizes() {
   return (
     <SlideFrame title="Detailed Prize Pool" kicker="Competitions">
       <div className="mb-6 flex flex-wrap items-center gap-4">
