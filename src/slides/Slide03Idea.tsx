@@ -2,7 +2,7 @@ import { Code2, Gamepad2, Shirt, Footprints, Clapperboard, Music, Car } from 'lu
 import SlideFrame from './SlideFrame'
 
 const ARENAS = [
-  { icon: Code2, name: 'Hackathon', sub: '75 Teams / 300 Participants', color: 'text-cyan-300' },
+  { icon: Code2, name: 'Hackathon', sub: '75 Teams / 300 Participants', color: 'text-yellow-300' },
   { icon: Gamepad2, name: 'Esports Arena', sub: 'Valorant, Call of Duty, PUBG, PES', color: 'text-emerald-300' },
   { icon: Shirt, name: 'Fashion Runway', sub: 'Original looks, styling and a live runway', color: 'text-pink-300' },
   { icon: Footprints, name: 'Dance Showcase', sub: 'Solo and crew performances across styles', color: 'text-amber-300' },
@@ -18,7 +18,7 @@ export default function Slide03Idea() {
         HIVE brings a hackathon, esports, fashion runway, dance, film, live music and a headline auto-show together
         as one continuous campus event.
       </p>
-      <div className="mt-6 inline-flex w-fit items-center rounded-full border border-cyan-400/50 bg-cyan-400/10 px-5 py-2 font-display text-sm font-bold text-cyan-200">
+      <div className="mt-6 inline-flex w-fit items-center rounded-full border border-yellow-400/50 bg-yellow-400/10 px-5 py-2 font-display text-sm font-bold text-yellow-200">
         ZERO PRE-EVENTS. Pure Finals Only.
       </div>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

@@ -14,7 +14,7 @@ export default function Slide05Budget() {
               </Pie>
               <Tooltip
                 formatter={(v) => formatINR(Number(v))}
-                contentStyle={{ background: '#0b1220', border: '1px solid #1e293b', borderRadius: 12, color: '#e6edf7' }}
+                contentStyle={{ background: '#211d0a', border: '1px solid #514515', borderRadius: 12, color: '#e6edf7' }}
                 itemStyle={{ color: '#e6edf7' }}
               />
             </PieChart>

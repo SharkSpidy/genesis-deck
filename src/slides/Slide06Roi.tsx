@@ -2,7 +2,7 @@ import { ScanLine, Megaphone, BadgeCheck, Cog } from 'lucide-react'
 import SlideFrame from './SlideFrame'
 
 const ITEMS = [
-  { icon: ScanLine, color: 'text-cyan-300', stat: '10,000+', title: 'Verified Admissions Leads', body: 'Every ticket/entry verified via RFID for deep prospective student data.' },
+  { icon: ScanLine, color: 'text-yellow-300', stat: '10,000+', title: 'Verified Admissions Leads', body: 'Every ticket/entry verified via RFID for deep prospective student data.' },
   { icon: Megaphone, color: 'text-pink-300', stat: '1.5M+', title: 'Institutional Branding & PR', body: '1.5M+ Digital Impressions, National YouTube Broadcast.' },
   { icon: BadgeCheck, color: 'text-violet-300', stat: 'VIPs', title: 'High-Level Validation', body: 'Hosting Chief Minister, IT Minister, Education Minister, and actor Nivin Pauly.' },
   { icon: Cog, color: 'text-emerald-300', stat: 'Zero', title: 'Turnkey Execution', body: 'Zero faculty burden; fully managed by the 15-cell HIVE operational engine.' },

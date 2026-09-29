@@ -4,7 +4,7 @@ import SlideFrame from './SlideFrame'
 const TIERS = [
   { name: 'Silver', qty: 5000, color: 'text-slate-300', border: 'border-slate-400/40' },
   { name: 'Gold', qty: 3000, color: 'text-amber-300', border: 'border-amber-400/40' },
-  { name: 'Diamond', qty: 2000, color: 'text-cyan-300', border: 'border-cyan-400/40' },
+  { name: 'Diamond', qty: 2000, color: 'text-yellow-200', border: 'border-yellow-400/40' },
 ]
 
 export default function Slide07Appendix() {

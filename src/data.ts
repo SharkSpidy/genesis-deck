@@ -28,13 +28,13 @@ export const PRIZE_GROUPS: PrizeGroup[] = [
 export const PRIZE_POOL_TOTAL = PRIZE_GROUPS.reduce((sum, g) => sum + g.amount, 0) // 1,408,000
 
 export const BUDGET_CATEGORIES: BudgetCategory[] = [
-  { id: 'prize-pool', label: 'Prize Pool', amount: PRIZE_POOL_TOTAL, description: 'Gaming, band, hackathon, film & reels, fashion and dance', color: '#22d3ee' },
+  { id: 'prize-pool', label: 'Prize Pool', amount: PRIZE_POOL_TOTAL, description: 'Gaming, band, hackathon, film & reels, fashion and dance', color: '#facc15' },
   { id: 'esports-rigs', label: 'Esports Battle Stations', amount: 325_000, description: '10× RTX 4080/4090 rigs, 240Hz–360Hz displays, LAN infrastructure', color: '#34d399' },
   { id: 'celebrity', label: 'Celebrity & VIP Buffer', amount: 1_000_000, description: 'Appearance fees, hospitality, and travel contingency', color: '#a78bfa' },
   { id: 'stage-production', label: 'Stage & Production Logistics', amount: 1_100_000, description: 'Staging, sound, lighting, rigging, and crew logistics', color: '#fb923c' },
   { id: 'broadcast', label: 'YouTube Broadcast & Streaming Rig', amount: 225_000, description: 'Multi-cam capture, switcher, encoders, and caster desks', color: '#f472b6' },
   { id: 'marketing', label: 'Marketing & Digital Campaigns', amount: 420_000, description: 'Paid social, creator partnerships, and on-ground promo', color: '#facc15' },
-  { id: 'tech-exhibits', label: 'Tech Exhibits & Media Production', amount: 300_000, description: 'Showcase builds, media walls, and content production', color: '#60a5fa' },
+  { id: 'tech-exhibits', label: 'Tech Exhibits & Media Production', amount: 300_000, description: 'Showcase builds, media walls, and content production', color: '#fde047' },
   { id: 'crew', label: 'Crew Honorarium', amount: 200_000, description: '100 crew × ₹2,000/head', color: '#4ade80' },
   { id: 'ticketing', label: 'Ticketing, RFID & Gate Security', amount: 150_000, description: 'Access control, RFID wristbands, and gate staffing', color: '#f87171' },
   { id: 'lanyards-tags', label: 'Lanyards & Tags', amount: 500_000, description: 'Event lanyards, badges, and attendee identification tags', color: '#c084fc' },
