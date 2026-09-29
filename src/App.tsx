@@ -36,7 +36,7 @@ export default function App() {
   const Slide = SLIDES[currentSlide]
 
   return (
-    <div className="relative h-dvh w-full overflow-hidden bg-[#151211]">
+    <div className="relative h-dvh w-full overflow-hidden bg-[#17160f]">
       <AnimatePresence mode="wait" custom={dir}>
         <motion.div
           key={currentSlide}
@@ -50,19 +50,19 @@ export default function App() {
         </motion.div>
       </AnimatePresence>
 
-      <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-between bg-gradient-to-t from-[#151211] via-[#151211]/90 to-transparent px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-10 sm:px-8">
+      <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-between bg-gradient-to-t from-[#17160f] via-[#17160f]/90 to-transparent px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-10 sm:px-8">
         <button onClick={() => go(-1)} disabled={currentSlide === 0} aria-label="Previous slide"
-          className="flex items-center gap-1 rounded-full border border-white/20 px-4 py-2 text-sm text-white transition hover:border-rose-300 hover:text-rose-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-rose-300 disabled:opacity-30">
+          className="flex items-center gap-1 rounded-full border border-white/20 px-4 py-2 text-sm text-white transition hover:border-amber-200 hover:text-amber-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-200 disabled:opacity-30">
           <ChevronLeft className="h-4 w-4" /> Prev
         </button>
         <div className="flex items-center gap-2" role="tablist">
           {SLIDES.map((_, i) => (
             <button key={i} onClick={() => { setDir(i > currentSlide ? 1 : -1); setCurrentSlide(i) }} aria-label={`Go to slide ${i + 1}`}
-              className={`h-2 rounded-full transition-all ${i === currentSlide ? 'w-8 bg-rose-300' : 'w-2 bg-white/25 hover:bg-white/50'}`} />
+              className={`h-2 rounded-full transition-all ${i === currentSlide ? 'w-8 bg-amber-200' : 'w-2 bg-white/25 hover:bg-white/50'}`} />
           ))}
         </div>
         <button onClick={() => go(1)} disabled={currentSlide === last} aria-label="Next slide"
-          className="flex items-center gap-1 rounded-full border border-white/20 px-4 py-2 text-sm text-white transition hover:border-rose-300 hover:text-rose-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-rose-300 disabled:opacity-30">
+          className="flex items-center gap-1 rounded-full border border-white/20 px-4 py-2 text-sm text-white transition hover:border-amber-200 hover:text-amber-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-amber-200 disabled:opacity-30">
           Next <ChevronRight className="h-4 w-4" />
         </button>
       </div>

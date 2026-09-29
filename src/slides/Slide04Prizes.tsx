@@ -6,7 +6,7 @@ export default function Slide04Prizes() {
   return (
     <SlideFrame title="Detailed Prize Pool" kicker="Competitions">
       <div className="mb-6 flex flex-wrap items-center gap-4">
-        <Trophy className="h-10 w-10 text-rose-300" />
+        <Trophy className="h-10 w-10 text-amber-200" />
         <p className="font-display text-4xl font-extrabold text-white md:text-6xl">{formatINR(PRIZE_POOL_TOTAL)}</p>
         <p className="text-slate-400">total prize pool</p>
       </div>
@@ -15,7 +15,7 @@ export default function Slide04Prizes() {
           <div key={g.id} className={`rounded-sm border border-white/10 bg-white/[0.04] p-5 ${g.id === 'gaming' ? 'md:row-span-2' : ''}`}>
             <div className="mb-3 flex items-baseline justify-between gap-3">
               <h3 className="font-display text-lg font-bold text-white">{g.title}</h3>
-              <span className="font-display font-bold text-rose-200">{formatINR(g.amount)}</span>
+              <span className="font-display font-bold text-amber-200">{formatINR(g.amount)}</span>
             </div>
             {g.items?.map((it) => (
               <div key={it.id} className="border-t border-white/5 py-2 text-sm">

@@ -18,7 +18,7 @@ export default function Slide03Idea() {
         HIVE brings a hackathon, esports, fashion runway, dance, film, live music and a headline auto-show together
         as one continuous campus event.
       </p>
-      <div className="mt-6 inline-flex w-fit items-center rounded-sm border border-rose-300/50 bg-rose-300/10 px-5 py-2 font-display text-sm font-bold text-rose-100">
+      <div className="mt-6 inline-flex w-fit items-center rounded-sm border border-amber-200/50 bg-amber-200/10 px-5 py-2 font-display text-sm font-bold text-amber-100">
         ZERO PRE-EVENTS. Pure Finals Only.
       </div>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
