@@ -1,7 +1,7 @@
 import { Users, Landmark, Radio } from 'lucide-react'
 import SlideFrame from './SlideFrame'
 
-const VIPS = ['Chief Minister', 'IT Minister', 'Education Minister', 'Nivin Pauly', 'Director Crews']
+const VIPS = ['Chief Minister', 'IT Minister', 'Education Minister', 'Influencers', 'Director Crews', 'Content Creators', 'Celebrities', 'Media Houses', 'Industry Leaders', 'Investors', 'Venture Capitalists', 'Startup Founders']
 
 export default function Slide03Value() {
   return (
