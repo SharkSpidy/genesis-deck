@@ -1,10 +1,10 @@
-import { Code2, Gamepad2, Pallete, Clapperboard, Music, Car } from 'lucide-react'
+import { Code2, Gamepad2, Palette, Clapperboard, Music, Car } from 'lucide-react'
 import SlideFrame from './SlideFrame'
 
 const ARENAS = [
   { icon: Code2, name: 'Hackathon', sub: '75 Teams / 300 Participants', color: 'text-cyan-300' },
   { icon: Gamepad2, name: 'Esports Arena', sub: 'Valorant, Call of Duty, PUBG, PES', color: 'text-emerald-300' },
-  { icon: Pallete, name: 'Dance & Fashion', sub: 'Dance and fashion competitions', color: 'text-pink-300' },
+  { icon: Palette, name: 'Dance & Fashion', sub: 'Dance and fashion competitions', color: 'text-pink-300' },
   { icon: Clapperboard, name: 'Film & Reels', sub: 'Short film and reels track', color: 'text-amber-300' },
   { icon: Music, name: 'Band Competition', sub: 'Live band finals', color: 'text-violet-300' },
   { icon: Car, name: 'Auto-Show & Pro-Show', sub: 'Headline evening show', color: 'text-orange-300' },
