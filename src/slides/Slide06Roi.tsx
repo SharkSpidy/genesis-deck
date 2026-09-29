@@ -13,7 +13,7 @@ export default function Slide06Roi() {
     <SlideFrame title="Scope of the Event & Partnership ROI" kicker="What Jain University gets">
       <div className="grid gap-5 md:grid-cols-2">
         {ITEMS.map(({ icon: Icon, color, stat, title, body }, i) => (
-          <div key={title} className="rounded-3xl border border-white/10 bg-white/[0.03] p-7">
+          <div key={title} className="rounded-sm border border-white/10 bg-white/[0.04] p-7">
             <div className="mb-4 flex items-center justify-between">
               <Icon className={`h-8 w-8 ${color}`} />
               <span className="text-sm text-slate-500">Highlight {i + 1}</span>

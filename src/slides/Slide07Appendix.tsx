@@ -12,14 +12,14 @@ const TOTAL = TIERS.reduce((s, t) => s + t.qty * t.price, 0)
 export default function Slide07Appendix() {
   return (
     <SlideFrame title="Revenue Model" kicker="Appendix · Backup Data">
-      <span className="-mt-4 mb-6 inline-block w-fit rounded-full border border-amber-400/50 bg-amber-400/10 px-4 py-1 font-display text-xs font-bold uppercase tracking-widest text-amber-300">Appendix / Backup Slide</span>
-      <div className="mb-8 rounded-3xl border border-emerald-400/30 bg-emerald-400/10 p-6 md:p-8">
+      <span className="-mt-4 mb-6 inline-block w-fit rounded-sm border border-amber-400/50 bg-amber-400/10 px-4 py-1 font-display text-xs font-bold uppercase text-amber-300">Appendix / Backup Slide</span>
+      <div className="mb-8 rounded-sm border border-emerald-400/30 bg-emerald-400/10 p-6 md:p-8">
         <p className="text-slate-300">Target Ticket Income</p>
         <p className="font-display text-4xl font-extrabold text-white md:text-6xl">₹50 Lakhs <span className="text-2xl font-bold text-emerald-300 md:text-3xl">(Final Profit)</span></p>
       </div>
       <div className="grid gap-4 md:grid-cols-3">
         {TIERS.map((t) => (
-          <div key={t.name} className={`rounded-2xl border ${t.border} bg-white/[0.03] p-6`}>
+          <div key={t.name} className={`rounded-sm border ${t.border} bg-white/[0.04] p-6`}>
             <Ticket className={`mb-3 h-7 w-7 ${t.color}`} />
             <h3 className={`font-display text-2xl font-bold ${t.color}`}>{t.name}</h3>
             <p className="mt-3 text-lg text-white">{t.qty.toLocaleString('en-IN')} tickets @ Rs. {t.price.toLocaleString('en-IN')}</p>

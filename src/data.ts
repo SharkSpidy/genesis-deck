@@ -22,13 +22,13 @@ export const PRIZE_GROUPS: PrizeGroup[] = [
       {id: 'film', label: 'Short Film', amount: 175000, note: '1st: 1L, 2nd: 50k, 3rd: 25k'},
       {id: 'reels', label: 'Reels', amount: 35000, note: '1st: 20k, 2nd: 10k, 3rd: 5k'}
   ]},
-  { id: 'art', title: 'Digital & Physical Art', amount: 120_000 },
+  { id: 'fashion-dance', title: 'Fashion & Dance', amount: 120_000 },
 ]
 
 export const PRIZE_POOL_TOTAL = PRIZE_GROUPS.reduce((sum, g) => sum + g.amount, 0) // 1,408,000
 
 export const BUDGET_CATEGORIES: BudgetCategory[] = [
-  { id: 'prize-pool', label: 'Prize Pool', amount: PRIZE_POOL_TOTAL, description: 'Gaming, band, hackathon, film & reels, and art competitions', color: '#22d3ee' },
+  { id: 'prize-pool', label: 'Prize Pool', amount: PRIZE_POOL_TOTAL, description: 'Gaming, band, hackathon, film & reels, fashion and dance', color: '#e8796d' },
   { id: 'esports-rigs', label: 'Esports Battle Stations', amount: 325_000, description: '10× RTX 4080/4090 rigs, 240Hz–360Hz displays, LAN infrastructure', color: '#34d399' },
   { id: 'celebrity', label: 'Celebrity & VIP Buffer', amount: 1_000_000, description: 'Appearance fees, hospitality, and travel contingency', color: '#a78bfa' },
   { id: 'stage-production', label: 'Stage & Production Logistics', amount: 1_100_000, description: 'Staging, sound, lighting, rigging, and crew logistics', color: '#fb923c' },
